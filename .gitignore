@@ -1,0 +1,20 @@
+# Ansible
+*.retry
+*.log
+vault-password.txt
+.secret
+secrets.yml
+*.pyc
+
+# SSH specific
+*.pem
+*.key
+*.pub
+
+# Python virtualenvs
+venv/
+.env/
+
+# Miscellaneous
+__pycache__/
+.cache/
