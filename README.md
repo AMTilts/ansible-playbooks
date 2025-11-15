@@ -27,9 +27,10 @@ ansible-playbooks/
 
 2. **(Optional) Set up your Python virtual environment**
 
-python3 -m venv venv
+```python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 
 
@@ -41,7 +42,7 @@ Edit variables in the `group_vars/` and `host_vars/` directories as needed.
 
 5. **Run a playbook**
 
-ansible-playbook -i inventories/hosts site.yml
+```ansible-playbook -i inventories/hosts site.yml```
 
 
 
